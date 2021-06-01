@@ -17,6 +17,14 @@ iframe{
     background-size: cover;
 }
 
+
+.logo{
+    padding: 1%;
+    font-size: x-large;
+    text-align: center;
+    font-family:fangsong;
+    color: #fff;
+}
   
 .menu ul {
     margin: 0;
@@ -36,9 +44,11 @@ iframe{
     display: block;
 }
 
-.select{
-    background-color: #efe582;
+.select, .select a{
+    background: linear-gradient(86deg,transparent 7%, rgb(0 0 0), transparent 91%);
+    color: #fff;
 }
+
 
 .quadro { 
     display: flex;
@@ -58,13 +68,23 @@ iframe{
 }
 
 .bloco{
+    box-shadow: 1px 0 5px rgb(0 27 0), inset 0 0 100px rgb(155 197 218 / 25%);
     border: 8px double;
-    background-color: #669ac7;
     width: 45%;
     padding: 1%;
     border-radius: 12px;
+    background: linear-gradient(15deg, black, transparent);
+    color: #fff;
 }
 
+.bloco2{
+    box-shadow: 1px 0 5px rgb(0 27 0), inset 0 0 100px rgb(155 197 218 / 25%);
+    border: 8px double;
+    width: 45%;
+    padding: 1%;
+    border-radius: 12px;
+    background: linear-gradient(15deg, rgb(170, 221, 157), transparent);
+}
 
 img{
     width: 99%;
