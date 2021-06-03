@@ -120,3 +120,12 @@ img{
     text-align: left;
     font-family: sans-serif;
 }
+
+.btn {
+    background: linear-gradient(90deg , transparent, rgb(255 0 0) , rgb(255 247 0)48%, rgb(255 0 0) 83%,transparent );
+    padding: 3%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
