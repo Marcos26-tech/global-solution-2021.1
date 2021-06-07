@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/style.js" defer></script>
     <title>Document</title>
-</head> 
+</head>
+
 <body>
     <div class="container" id="home">
         <div class="logo">
@@ -15,37 +17,40 @@
         <div class="quadro">
             <h1>Seja Bem vindo ao projeto Traveller!</h1>
             <div class="quadro2">
-                <div class="coluna"> <!--coluna de login-->
+                <div class="coluna">
+                    <!--coluna de login-->
                     <h2>Para acessar nosso conteúdo é necessario efetuar Login</h2>
                     <div class="box">
                         <h1>Login</h1>
                         <hr>
-                            <form action="index.html" method="POST">
-                                <div class="input">
-                                    <label for="idEmail">Seu e-mail : </label>
-                                    <input type="email" name="Email" id="email" placeholder="contato@email.com" class="campo"
-                                        required >
-                                </div>
-                                <div class="input">
-                                    <label for="idPass">Sua Senha :</label>
-                                    <input type="password" name="pass" id="idPass" placeholder="Senha" class="campo" required>
-                                </div>
-                                <div class="input">
-                                    <input type="checkbox" name="ManLog" id="idManLog">
-                                    <label for="idManLog">Manter-me Logado</label>
-                                </div>
-                                <div class="input">
-                                    <input type="submit" name="lg" id="idLogin" value="Logar" class="btn" onclick="login()">
-                                </div>
-                            </form>
+                        <form action="index.html" method="POST">
+                            <div class="input">
+                                <label for="idEmail">Seu e-mail : </label>
+                                <input type="email" name="Email" id="email" placeholder="contato@email.com"
+                                    class="campo" required>
+                            </div>
+                            <div class="input">
+                                <label for="idPass">Sua Senha :</label>
+                                <input type="password" name="pass" id="idPass" placeholder="Senha" class="campo"
+                                    required>
+                            </div>
+                            <div class="input">
+                                <input type="checkbox" name="ManLog" id="idManLog">
+                                <label for="idManLog">Manter-me Logado</label>
+                            </div>
+                            <div class="input">
+                                <input type="submit" name="lg" id="idLogin" value="Logar" class="btn" onclick="login()">
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="coluna"> <!--coluna de cadastro-->
+                <div class="coluna">
+                    <!--coluna de cadastro-->
                     <h2>Caso não tenha login, Cadastre-se aqui :</h2>
                     <div class="box">
                         <h1>Cadastro</h1>
                         <hr />
-                        <form action="index.html" method="POST" >
+                        <form action="index.html" method="POST">
                             <div class="input">
                                 <label for="idUser">Seu nome : </label>
                                 <input type="text" name="user" id="idUser" placeholder="Nome" class="campo" required
@@ -53,14 +58,17 @@
                             </div>
                             <div class="input">
                                 <label for="idEmail">Seu e-mail : </label>
-                                <input type="email" name="email" id="idEmail" placeholder="contato@email.com" class="campo" required>
+                                <input type="email" name="email" id="idEmail" placeholder="contato@email.com"
+                                    class="campo" required>
                             </div>
                             <div class="input">
                                 <label for="idPass">Sua Senha :</label>
-                                <input type="password" name="Pass" id="idPass" placeholder="Senha" class="campo" required pattern=".{6,}">
+                                <input type="password" name="Pass" id="idPass" placeholder="Senha" class="campo"
+                                    required pattern=".{6,}">
                             </div>
                             <div class="input">
-                                <input type="submit"  name="cd" id="idCadastro" value="Cadastrar" class="btn" onclick="cadastro()">
+                                <input type="submit" name="cd" id="idCadastro" value="Cadastrar" class="btn"
+                                    onclick="cadastro()">
                             </div>
                         </form>
                     </div>
@@ -69,4 +77,5 @@
         </div>
     </div>
 </body>
+
 </html>
