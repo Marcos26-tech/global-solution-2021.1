@@ -32,23 +32,21 @@ li {
 #noite {
     background-image: url(../img/background/ceunoturno.jpg);
     background-size: cover;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
 
 #dia {
     background-image: url(../img/background/parque.jpg);
     background-size: cover;
-    justify-content: center;
-    align-items: center;
+}
+
+#somos{
+    background-image: url(../img/background/dev.jpg);
+    background-size: cover;
 }
 
 #home {
     background-image: url(../img/background/pordosol.jpg);
     background-size: cover;
-    justify-content: center;
-    align-items: center;
 }
 /*  fim background*/
 
@@ -83,6 +81,12 @@ li {
 .select,
 .select a {
     background: linear-gradient(86deg, transparent 7%, rgb(0 0 0), transparent 91%);
+    color: #fff;
+}
+
+.select1,
+.select1 a {
+    background: linear-gradient(86deg, transparent 7%, rgb(26 64 103), transparent 91%);
     color: #fff;
 }
 
