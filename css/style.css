@@ -1,6 +1,6 @@
+
 body{
     margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -218,19 +218,77 @@ img {
     background: linear-gradient(rgb(134, 50, 50), transparent);
     width: auto;
     text-align: center;
-    padding: 0.1%;
+    padding: 0.5%;
 }
+
 .rodape {
     width: auto;
     text-align: center;
     background: linear-gradient(hsl(108, 48%, 74%), transparent);
-    padding: 0.1%;
+    padding: 0.5%;
 }
 
 .rodape1 {
     background: linear-gradient(rgb(7, 7, 7), transparent);
     width: auto;
     text-align: center;
-    padding: 0.1%;
+    padding: 0.5%;
 }
+
+.container1 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 25%;
+    width: 60%;
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+}
+
+.photoWrapper {
+    position: absolute;
+    animation: round 16s infinite;
+    opacity: 0;
+    bottom: 10ex;
+    padding-bottom: 5%;
+}
+
+.photo {
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes round {
+    25% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+.photoWrapper:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.photoWrapper:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.photoWrapper:nth-child(3) {
+    animation-delay: 8s;
+}
+
+.photoWrapper:nth-child(4) {
+    animation-delay: 12s;
+}
+
+@media (max-width: 1080px) {
+    .container {
+      width: 99%;
+      padding-bottom: 50%;
+    }
+  }
 
