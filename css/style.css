@@ -29,7 +29,7 @@ li {
 }
 
 #noite {
-    background-image: url(../img/ceunoturno.jpg);
+    background-image: url(../img/background/ceunoturno.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -37,19 +37,17 @@ li {
 }
 
 #dia {
-    background-image: url(../img/parque.jpg);
+    background-image: url(../img/background/parque.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 #home {
-    background-image: url(../img/pordosol.jpg);
+    background-image: url(../img/background/pordosol.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .logo {
