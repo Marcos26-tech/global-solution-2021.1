@@ -29,7 +29,7 @@ li {
 }
 
 #noite {
-    background-image: url(../img/ceunoturno.jpg);
+    background-image: url(../img/background/ceunoturno.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -37,19 +37,17 @@ li {
 }
 
 #dia {
-    background-image: url(../img/parque.jpg);
+    background-image: url(../img/background/parque.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 #home {
-    background-image: url(../img/pordosol.jpg);
+    background-image: url(../img/background/pordosol.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .logo {
@@ -194,29 +192,16 @@ img {
     color: #fff;
 }
 
-#rodape2 {
-    height: 5%;
-    width: auto;
-    text-align: center;
+.rodape2 {
     background: linear-gradient(rgb(134, 50, 50), transparent);
-    display: flex;
-    flex-direction: column;
 }
-
-#rodape {
-    height: 5%;
+.rodape {
     width: auto;
     text-align: center;
     background: linear-gradient(hsl(108, 48%, 74%), transparent);
-    display: flex;
-    flex-direction: column;
+    padding: 0.5%;
 }
 
-#rodape1 {
-    height: 5%;
-    width: auto;
-    text-align: center;
+.rodape1 {
     background: linear-gradient(rgb(7, 7, 7), transparent);
-    display: flex;
-    flex-direction: column;
 }
