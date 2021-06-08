@@ -1,6 +1,7 @@
-body {
-    margin: 0;
-    padding: 0;
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .container {
@@ -28,6 +29,7 @@ li {
     list-style-type: none;
 }
 
+/*background*/
 #noite {
     background-image: url(../img/background/ceunoturno.jpg);
     background-size: cover;
@@ -49,6 +51,7 @@ li {
     justify-content: center;
     align-items: center;
 }
+/*  fim background*/
 
 .logo {
     padding: 1%;
@@ -57,6 +60,8 @@ li {
     font-family: fangsong;
     color: #fff;
 }
+
+/*Menu*/
 
 .menu ul {
     margin: 0;
@@ -93,7 +98,9 @@ li {
     background: linear-gradient(86deg, transparent 7%, rgb(255 0 0), transparent 91%);
     color: white;
 }
+/* fim menu*/
 
+/*espaçamento do corpo*/
 .quadro {
     display: flex;
     flex-direction: column;
@@ -110,13 +117,17 @@ li {
     justify-content: space-around;
     display: flex;
 }
+/*fim espaçamento do corpo*/
 
+/*alinhamento vertical dos blocos*/
 .barra {
     margin: 1%;
     display: flex;
     justify-content: space-around;
 }
 
+
+/* formatação dos blocos de conteudo*/
 .bloco,
 .bloco2 {
     box-shadow: 1px 0 5px rgb(0 27 0), inset 0 0 100px rgb(155 197 218 / 25%);
@@ -138,24 +149,25 @@ img {
     width: 99%;
 }
 
+/* alinhamento vertical do conteudo*/
 .DesAva {
     justify-content: space-between;
     display: flex;
 }
 
-
+/* centralização do conteudo*/
 .auto {
     text-align: center;
     width: 85%;
     margin: auto;
 }
-
+/*formatação de lista*/
 .list,
 .list li {
     text-align: left;
     font-family: sans-serif;
 }
-
+/*botoes*/
 .btn {
     background: linear-gradient(90deg, transparent, rgb(255 0 0), rgb(255 141 0)48%, rgb(255 0 0) 83%, transparent);
     padding: 3%;
@@ -163,8 +175,16 @@ img {
     border: none;
     color: #fff;
     font-weight: bold;
+    margin: auto;
 }
 
+.textBtn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* medidas das colunas em login/cadastro*/
 .coluna {
     margin: 1%;
     padding: 1%;
@@ -172,6 +192,7 @@ img {
     min-height: 720px;
 }
 
+/*caixas de login/cadastro*/
 .box {
     background: linear-gradient(45deg, rgb(134, 50, 50), transparent);
     display: flex;
@@ -181,6 +202,7 @@ img {
     padding: 3%;
 }
 
+/* inputs de login/cadastro*/
 .campo {
     display: block;
     padding: 1vh;
@@ -192,12 +214,14 @@ img {
     color: #fff;
 }
 
+/*rodapés*/
 .rodape2 {
     background: linear-gradient(rgb(134, 50, 50), transparent);
     width: auto;
     text-align: center;
-    padding: 0.1%;
+    padding: 0.5%;
 }
+
 .rodape {
     width: auto;
     text-align: center;
@@ -209,5 +233,63 @@ img {
     background: linear-gradient(rgb(7, 7, 7), transparent);
     width: auto;
     text-align: center;
-    padding: 0.1%;
+    padding: 0.5%;
 }
+
+.container1 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 25%;
+    width: 60%;
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+}
+
+.photoWrapper {
+    position: absolute;
+    animation: round 16s infinite;
+    opacity: 0;
+    bottom: 10ex;
+    padding-bottom: 5%;
+}
+
+.photo {
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes round {
+    25% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+.photoWrapper:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.photoWrapper:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.photoWrapper:nth-child(3) {
+    animation-delay: 8s;
+}
+
+.photoWrapper:nth-child(4) {
+    animation-delay: 12s;
+}
+
+@media (max-width: 1080px) {
+    .container {
+      width: 99%;
+      padding-bottom: 50%;
+    }
+  }
+
