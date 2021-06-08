@@ -294,7 +294,6 @@ img {
     position: absolute;
     animation: round 16s infinite;
     opacity: 0;
-    bottom: 10vw;
 }
 
 .photo {
@@ -334,7 +333,6 @@ img {
         padding-bottom: 50%;
     }
 }
-
 /*fim slider*/
 
 /*pagina quem somos*/
