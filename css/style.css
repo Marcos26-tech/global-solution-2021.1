@@ -128,6 +128,9 @@ img {
     justify-content: space-around;
     display: flex;
 }
+.quadro2 h3{
+    font-size: 22px;
+}
 
 /*fim espaçamento do corpo*/
 
