@@ -31,16 +31,25 @@ li {
 #noite {
     background-image: url(../img/ceunoturno.jpg);
     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 #dia {
     background-image: url(../img/parque.jpg);
     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 #home {
     background-image: url(../img/pordosol.jpg);
     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .logo {
@@ -122,7 +131,7 @@ li {
 }
 
 .bloco2 {
-    background: linear-gradient(15deg, rgb(170, 221, 157), transparent);
+    background: linear-gradient(15deg, hsl(108, 48%, 74%), transparent);
     color: #000;
 
 }
@@ -185,11 +194,29 @@ img {
     color: #fff;
 }
 
-footer {
-    height:5%;
+#rodape2 {
+    height: 5%;
     width: auto;
     text-align: center;
     background: linear-gradient(rgb(134, 50, 50), transparent);
+    display: flex;
+    flex-direction: column;
+}
+
+#rodape {
+    height: 5%;
+    width: auto;
+    text-align: center;
+    background: linear-gradient(hsl(108, 48%, 74%), transparent);
+    display: flex;
+    flex-direction: column;
+}
+
+#rodape1 {
+    height: 5%;
+    width: auto;
+    text-align: center;
+    background: linear-gradient(rgb(7, 7, 7), transparent);
     display: flex;
     flex-direction: column;
 }
