@@ -1,6 +1,7 @@
 
 body{
-    margin: 0;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .container {
@@ -229,7 +230,7 @@ img {
     width: auto;
     text-align: center;
     background: linear-gradient(hsl(108, 48%, 74%), transparent);
-    padding: 0.5%;
+    padding: 0.1%;
 }
 
 .rodape1 {
