@@ -194,14 +194,20 @@ img {
 
 .rodape2 {
     background: linear-gradient(rgb(134, 50, 50), transparent);
+    width: auto;
+    text-align: center;
+    padding: 0.1%;
 }
 .rodape {
     width: auto;
     text-align: center;
     background: linear-gradient(hsl(108, 48%, 74%), transparent);
-    padding: 0.5%;
+    padding: 0.1%;
 }
 
 .rodape1 {
     background: linear-gradient(rgb(7, 7, 7), transparent);
+    width: auto;
+    text-align: center;
+    padding: 0.1%;
 }
