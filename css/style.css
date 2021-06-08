@@ -29,6 +29,11 @@ li {
     list-style-type: none;
 }
 
+img {
+    border-radius: 15px;
+    width: 99%;
+}
+
 /*background*/
 #noite {
     background-image: url(../img/background/ceunoturno.jpg);
@@ -149,9 +154,16 @@ li {
 
 }
 
-img {
-    width: 99%;
+.card{
+    border: 2px solid #ff0 ;
+    padding: 1%;
+    border-radius: 20px;
+    width: 16.5%;
+    background: linear-gradient(15deg, #1a4067, transparent);
+    margin: auto;
 }
+
+
 
 /* alinhamento vertical do conteudo*/
 .DesAva {
@@ -196,7 +208,7 @@ img {
     min-height: 720px;
 }
 
-/*caixas de login/cadastro*/
+/*caixas de login/cadastro e grupo*/
 .box {
     background: linear-gradient(45deg, rgb(134, 50, 50), transparent);
     display: flex;
@@ -204,6 +216,14 @@ img {
     border: 1px solid rgb(255, 247, 0);
     border-radius: 10px;
     padding: 3%;
+}
+
+.box2{
+    display: flex;
+    margin: auto;
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 1%;
 }
 
 /* inputs de login/cadastro*/
@@ -239,7 +259,9 @@ img {
     text-align: center;
     padding: 0.5%;
 }
+/*fim rodape*/
 
+/*slider*/
 .container1 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -296,4 +318,4 @@ img {
       padding-bottom: 50%;
     }
   }
-
+/*fim slider*/
