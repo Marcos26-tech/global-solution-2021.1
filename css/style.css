@@ -337,12 +337,12 @@ img {
 
 /*pagina quem somos*/
 .panaceia img {
-    width: 10%;
-    height: 10%;
-    display: block;
+    width: 15%;
+    height: 15%;
 }
 .panaceia{
     display: flex;
+    justify-content: center;
     margin: auto;
     width: 100%;
 }
