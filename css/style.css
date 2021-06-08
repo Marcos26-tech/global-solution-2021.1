@@ -192,29 +192,16 @@ img {
     color: #fff;
 }
 
-#rodape2 {
-    height: 5%;
-    width: auto;
-    text-align: center;
+.rodape2 {
     background: linear-gradient(rgb(134, 50, 50), transparent);
-    display: flex;
-    flex-direction: column;
 }
-
-#rodape {
-    height: 5%;
+.rodape {
     width: auto;
     text-align: center;
     background: linear-gradient(hsl(108, 48%, 74%), transparent);
-    display: flex;
-    flex-direction: column;
+    padding: 0.5%;
 }
 
-#rodape1 {
-    height: 5%;
-    width: auto;
-    text-align: center;
+.rodape1 {
     background: linear-gradient(rgb(7, 7, 7), transparent);
-    display: flex;
-    flex-direction: column;
 }
