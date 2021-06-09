@@ -128,7 +128,8 @@ img {
     justify-content: space-around;
     display: flex;
 }
-.quadro2 h3{
+
+.quadro2 h3 {
     font-size: 22px;
 }
 
@@ -170,8 +171,9 @@ img {
     font-size: 15px;
     color: #fff;
 }
-.card p{
-    font-size:20px;
+
+.card p {
+    font-size: 20px;
 }
 
 /* alinhamento vertical do conteudo*/
@@ -272,7 +274,7 @@ img {
 }
 
 .rodape3 {
-    background: linear-gradient(30deg, #fe1414 10%, #f914fe 25%, #1416fe 60%, #28fe14 80%,#f7f45b 90%,   transparent); 
+    background: linear-gradient(30deg, #fe1414 10%, #f914fe 25%, #1416fe 60%, #28fe14 80%, #f7f45b 90%, transparent);
     width: auto;
     text-align: center;
     padding: 0.1%;
@@ -337,6 +339,7 @@ img {
         padding-bottom: 50%;
     }
 }
+
 /*fim slider*/
 
 /*pagina quem somos*/
@@ -344,17 +347,20 @@ img {
     width: 15%;
     height: 15%;
 }
-.panaceia{
+
+.panaceia {
     display: flex;
     justify-content: center;
     margin: auto;
     width: 100%;
 }
-.tamanho{
+
+.tamanho {
     font-size: 30px;
     font-weight: bold;
 }
-h5{
+
+h5 {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
