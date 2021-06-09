@@ -272,7 +272,7 @@ img {
 }
 
 .rodape3 {
-    background: linear-gradient(30deg, #fe1414 10%, #f914fe 25%, #1416fe 60%, #28fe14 80%, transparent); 
+    background: linear-gradient(30deg, #fe1414 10%, #f914fe 25%, #1416fe 60%, #28fe14 80%,#f7f45b 90%,   transparent); 
     width: auto;
     text-align: center;
     padding: 0.1%;
