@@ -15,4 +15,3 @@ function login() {
     alert("Dados incorretos, tente novamente.");
     return false;
 }
-
